@@ -1,0 +1,40 @@
+:root{
+    --salmon: #ff8c3f;
+    --black:#000;
+    --white:#fff;
+    --cyan:#8ef1e1;
+    --dcyan:#000f0f;
+    --dsalmon:#1f0700;
+
+}
+
+body[theme="black"]{
+    background-color: var(--black);
+}
+body[theme="black"] .section{
+    color:var(--white)
+}
+
+body[theme="white"]{
+    background-color: var(--white);
+}
+body[theme="white"] .section{
+    color: var(--black);
+}
+
+body[theme="cyan"]{
+    background-color:var(--cyan);
+}
+body[theme="cyan"] .section{
+   color:var(--dcyan);
+}
+body[theme="salmon"]{
+    background-color:var(--salmon);
+}
+body[theme="cyan"] .section{
+   color: var(--dsalmon);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
