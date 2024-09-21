@@ -11,12 +11,18 @@
 body[theme="black"]{
     background-color: var(--black);
 }
+body[theme="black"] .bc{
+    border-color: var(--white);
+}
 body[theme="black"] .section{
     color:var(--white)
 }
 
 body[theme="white"]{
     background-color: var(--white);
+}
+body[theme="white"] .bc{
+    background-color: var(--black);
 }
 body[theme="white"] .section{
     color: var(--black);

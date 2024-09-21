@@ -667,6 +667,10 @@ video {
   height: 100vh;
 }
 
+.h-\[400vh\]{
+  height: 400vh;
+}
+
 .w-52{
   width: 13rem;
 }
@@ -768,6 +772,11 @@ video {
 
 .rounded-full{
   border-radius: 9999px;
+}
+
+.bg-orange-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(194 65 12 / var(--tw-bg-opacity));
 }
 
 .object-cover{
