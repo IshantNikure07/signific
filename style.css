@@ -8,6 +8,14 @@
 
 }
 
+body{
+    transition: background-color ease-out .5s;
+}
+
+.video{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+
 body[theme="black"]{
     background-color: var(--black);
 }
